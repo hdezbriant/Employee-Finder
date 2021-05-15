@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# React Employee-Finder
+
+Using the Random User API, this app fetches "employee" data and displays it in an easy to read table, and allows users to search and sort the "employee database" by multiple fields.
+
+## Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
