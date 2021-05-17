@@ -2,7 +2,7 @@ import React from "react";
 
 function Wrapper({ children }) {
   return (
-    <div className="wrapper">
+    <div className="wrapper bg-dark">
       {children}
     </div>
   );
