@@ -7,7 +7,7 @@ function Search() {
       <Form.Row className="justify-content-center">
         <Form.Group controlId="searchField" style={{width: "60%"}}>
           <Form.Label className="text-white">Search by Name:</Form.Label>
-          <Form.Control type="text" placeholder="Type name here" className="bg-dark border-warning"/>
+          <Form.Control type="text" placeholder="Type name here" className="bg-dark border-warning text-white"/>
         </Form.Group>
       </Form.Row>
     </Container>
