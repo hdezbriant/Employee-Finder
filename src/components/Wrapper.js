@@ -27,7 +27,7 @@ class Wrapper extends Component {
       <div className="bg-secondary">
         <Header />
         <Search />
-        <EmpTable />
+        <EmpTable employees={this.state.searchResults} />
       </div>
     );
   }
