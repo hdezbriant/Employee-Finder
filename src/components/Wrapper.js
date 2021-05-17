@@ -1,11 +1,36 @@
-import React from "react";
+import { React, Component } from "react";
+import Header from "./Header";
+import Search from "./Search";
+import EmpTable from "./Table";
+import randoAPI from "../utils/randoapi";
 
-function Wrapper({ children }) {
-  return (
-    <div className="wrapper bg-dark">
-      {children}
-    </div>
-  );
+class Wrapper extends Component {
+  state = {
+    search: "",
+    searchResults: [],
+  };
+
+  componentDidMount() {
+    randoAPI
+      .search()
+      .then((res) => {
+        console.log(res);
+        this.setState({
+          searchResults: res.data.results,
+        });
+      })
+      .catch((err) => console.log(err));
+  }
+
+  render() {
+    return (
+      <div className="bg-secondary">
+        <Header />
+        <Search />
+        <EmpTable />
+      </div>
+    );
+  }
 }
 
 export default Wrapper;
