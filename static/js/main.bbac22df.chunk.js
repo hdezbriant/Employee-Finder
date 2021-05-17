@@ -1,2 +1,0 @@
-(this["webpackJsonpemployee-finder"]=this["webpackJsonpemployee-finder"]||[]).push([[0],{9:function(e,n,t){"use strict";t.r(n);var c=t(1),i=t.n(c),r=t(3),o=t.n(r),s=t(0);var d=function(){return Object(s.jsx)("div",{children:"App"})},u=function(e){e&&e instanceof Function&&t.e(3).then(t.bind(null,10)).then((function(n){var t=n.getCLS,c=n.getFID,i=n.getFCP,r=n.getLCP,o=n.getTTFB;t(e),c(e),i(e),r(e),o(e)}))};o.a.render(Object(s.jsx)(i.a.StrictMode,{children:Object(s.jsx)(d,{})}),document.getElementById("root")),u()}},[[9,1,2]]]);
-//# sourceMappingURL=main.bbac22df.chunk.js.map
