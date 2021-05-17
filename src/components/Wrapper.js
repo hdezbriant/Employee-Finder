@@ -22,12 +22,24 @@ class Wrapper extends Component {
       .catch((err) => console.log(err));
   }
 
+  inputChange = (event) => {
+    const value = event.target.value;
+    const name = event.target.name;
+
+    this.setState({
+      [name]: value,
+    });
+  };
+
   render() {
     return (
       <div className="bg-secondary">
         <Header />
         <Search />
-        <EmpTable employees={this.state.searchResults} />
+        <EmpTable
+          employees={this.state.searchResults}
+          onchange={this.inputChange}
+        />
       </div>
     );
   }
