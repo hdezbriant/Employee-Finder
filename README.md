@@ -1,6 +1,10 @@
 # React Employee-Finder
 
-Using the Random User API, this app fetches "employee" data and displays it in an easy to read table, and allows users to search and sort the "employee database" by multiple fields.
+Using the Random User API, this app fetches "employee" data and displays it in an easy to read table.
+###### *(and in the future will allow users to search and sort the "employee database" by multiple fields)*
+
+<br>
+<br>
 
 ## Create React App
 
